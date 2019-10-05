@@ -1,0 +1,136 @@
+body {
+   background-color: #ffffff;
+}
+
+.badge {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    font-size: 25px;
+    font-family: consolas;
+    color: #ffffff;
+    text-align: center;
+    background: #FF8000;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.Boogle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 30em;
+}
+
+form {
+    margin: -120px auto;
+    text-align: center;
+    border-radius: 0px;
+    border: transparent;
+    width: 700px;
+}
+
+input {
+    width: 527px;
+    height: 40px;
+    color: #CCC;
+    border: 1px solid;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-family: consolas;
+}
+
+input:focus {
+    outline:none;
+    border: 1px solid #aeaeaa;
+    box-shadow: 0px 0px 5px #aeaeaa;
+    -moz-box-shadow: 0px 0px 5px #aeaeaa;
+    -webkit-box-shadow: 0px 0px 5px #aeaeaa;
+}
+
+.container {
+    text-align:center;
+}
+
+.left-button {
+    display: inline-block;
+    max-width: 300px;
+    vertical-align: top;
+}
+
+.right-button {
+    display: inline-block;
+    max-width: 300px;
+}
+
+.button1 {
+    border: none;
+    background: #CAC5C5;
+    color: #ffffff;
+    font-family: consolas;
+    font-weight: 500;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.button1:hover {
+    color: #6E6E6E;
+    font-family: consolas;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+.button2 {
+    border: none;
+    background: #CAC5C5;
+    color: #ffffff;
+    font-family: consolas;
+    font-weight: 500;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.button2:hover {
+    color: #6E6E6E;
+    font-family: consolas;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+.footer {
+    background-color: #ffffff;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    right: 20%;
+    left: 50%;
+    margin-left: -80px;
+    border: transparent;
+    font-family: consolas;
+    color: #6E6E6E;
+}
+
+
